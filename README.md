@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PayShield AI
 
 AI-Powered Payment Scam Prevention & Transaction Intelligence Platform —
@@ -70,3 +71,6 @@ account — authentication is a real backend.
 - [`data/README.md`](data/README.md) — honest statement on held-out test data
 
 See `frontend/README.md` and `backend/README.md` for implementation details on each side.
+=======
+# Razorpay_Ai_intern_project
+>>>>>>> e7983b742352468fea85af15c4fe47dad54579a2
