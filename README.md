@@ -300,14 +300,8 @@ GOOGLE_OAUTH_CLIENT_ID=
 
 ## 🖼️ Screenshots / Demo
 
-> _Add screenshots or a short demo video/GIF here — e.g. Dashboard, Investigation Workspace, Verification Center, and Analytics views._
-
-| Dashboard | Investigation Workspace |
-|---|---|
-| _screenshot placeholder_ | _screenshot placeholder_ |
-
 **Live demo:** _add deployed URL here, if available_
-**Demo video:** _add video link here, if available_
+**Demo video:** https://drive.google.com/drive/folders/1iVcDwcGLyRCZm4qDZ29Wrw2ZKtVzP6Mw?usp=sharing
 
 ---
 
