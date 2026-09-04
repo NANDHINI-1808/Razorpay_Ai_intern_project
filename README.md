@@ -434,7 +434,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Nandhini Murugesan**
 
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: https://github.com/NANDHINI-1808 
 - LinkedIn: https://www.linkedin.com/in/nandhini-murugesan-5bb97a379/
 - Email: bharaninandhini48@gmail.com
 
