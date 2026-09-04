@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  /* PayShield AI design tokens */
+  --color-brand-950: #0B1233;
+  --color-brand-900: #0F1B4C;
+  --color-brand-800: #14235F;
+  --color-brand-700: #1B2E7A;
+  --color-brand-600: #24399B;
+  --color-brand-500: #2F4BC4;   /* primary royal blue */
+  --color-brand-400: #4C64D6;
+  --color-brand-100: #E7EBFB;
+  --color-brand-50:  #F3F5FE;
+
+  --color-accent-600: #4338CA;  /* indigo/purple secondary */
+  --color-accent-500: #5B4FE0;
+  --color-accent-400: #8378EA;
+
+  --color-electric-500: #2563EB; /* bright blue accent */
+
+  --color-success-600: #0F7A4B;
+  --color-success-100: #DCF5E7;
+  --color-warning-600: #B45B08;
+  --color-warning-100: #FCEACC;
+  --color-critical-600: #C0263A;
+  --color-critical-100: #FBDDE1;
+
+  --color-ink-900: #10131C;
+  --color-ink-700: #34394A;
+  --color-ink-500: #6B7183;
+  --color-ink-300: #C6CAD6;
+  --color-ink-100: #EDEFF5;
+  --color-surface: #FFFFFF;
+  --color-canvas: #F6F7FB;
+
+  --font-display: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-card: 16px;
+  --radius-control: 12px;
+  --shadow-card: 0 1px 2px rgba(16, 19, 28, 0.04), 0 8px 24px -12px rgba(16, 19, 28, 0.10);
+  --shadow-card-hover: 0 2px 4px rgba(16, 19, 28, 0.06), 0 16px 32px -12px rgba(16, 19, 28, 0.14);
+}
+
+@layer base {
+  html, body, #root { height: 100%; }
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--color-brand-100); }
+  *:focus-visible {
+    outline: 2px solid var(--color-electric-500);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

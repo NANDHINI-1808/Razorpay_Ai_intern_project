@@ -1,0 +1,20 @@
+{
+  "name": "payshield-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PayShield AI — AI-Powered Payment Scam Prevention & Transaction Intelligence Platform (Razorpay Buildathon Track 02: AI Risk Manager)",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && echo '\\nBackend setup is Python-based and not installable via npm — see backend/README.md (python -m venv venv && pip install -r requirements.txt).'",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "cd backend && venv/bin/uvicorn app.main:app --reload --port 8000",
+    "dev": "concurrently -n frontend,backend -c blue,green \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "build": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  },
+  "engines": {
+    "node": ">=18",
+    "python": ">=3.10"
+  }
+}
