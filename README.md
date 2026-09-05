@@ -435,6 +435,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-*PayShield AI — built for Razorpay Buildathon Track 02: AI Risk Manager.*
+*PayShield AI — built for Razorpay Buildathon *
 
 </div>
