@@ -300,7 +300,6 @@ GOOGLE_OAUTH_CLIENT_ID=
 
 ## 🖼️ Screenshots / Demo
 
-**Live demo:** _add deployed URL here, if available_
 **Demo video:** https://drive.google.com/drive/folders/1iVcDwcGLyRCZm4qDZ29Wrw2ZKtVzP6Mw?usp=sharing
 
 ---
